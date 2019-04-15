@@ -1,20 +1,20 @@
-@font-face {
-    font-family: 'myFirstFont';
-    src: url(/OpenSans-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 html {
     background-color: #f9fafc;
+    margin-left: 10px;
 }
 
-.font {
-    font-family: 'myFirstFont';
+body {
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     height: 30px;
 }
 
@@ -53,8 +53,11 @@ li {
 #hireus {
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 15%;
     padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
 }
 
 .bottomhalf {
@@ -68,8 +71,8 @@ li {
     display: inline-flex;
     width: 40%;
     padding-right: 25px;
-    padding-left: 4px;
-    border-left: 5px solid grey;
+    padding-left: 15px;
+    border-left: 3px solid lightgrey;
     height: 100%;
 }
 
@@ -92,6 +95,7 @@ li {
     position: relative;
     left: 10%;
     top: 40px;
+    z-index: 3;
 }
 
 #circle2 {
@@ -102,6 +106,7 @@ li {
     position: relative;
     right: 2%;
     top: 170px;
+    z-index: 3;
 }
 
 #circle3 {
@@ -112,6 +117,7 @@ li {
     position: relative;
     right: 18%;
     top: 70px;
+    z-index: 3;
 }
 
 #chirpus {
@@ -137,4 +143,19 @@ button#scroll {
     color: white;
     margin-top: 30px;
     font-size: 15px;
+}
+
+#scroll:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.navitem:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+#hireus:hover {
+    background-color: lightgrey;
+    color: black;
 }

@@ -11,7 +11,26 @@
     }
     li {
         margin-top: 10px;
+        margin-left: 0;
     }
+
+    li.bottombutton{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    a#hireus {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+
+    .logo {
+        font-weight: 600;
+    }
+
 
 
 
@@ -20,6 +39,9 @@
         float: left;
         justify-content: space-around;
         padding: 10px;
+        padding-left: 0;
+        padding-top: 0;
+        margin-top: 0;
     }
     #container {
         display: none;

@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+    body {
+        height: 100%;
+    }
+    
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: unset;
+    }
+    li {
+        margin-top: 10px;
+    }
+
+    #hireus {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+
+    ul.otherstuff {
+        display: block;
+        float: left;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    #container {
+        display: none;
+    }
+    #chirpus {
+        font-size: 35px;
+    }
+    .textbox {
+        font-size: 15px;
+    }
+    .footer {
+        display: block;
+    }
+
+    div.content {
+        display: block;
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    
+    button#scroll {
+        position: absolute;
+        border-radius: 10%;
+        bottom: 0%;
+        left: 0%;
+        margin-top: 10px;
+        width: 100%;
+        height: 40px;
+    }
+
+    
+}
